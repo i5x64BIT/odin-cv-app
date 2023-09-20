@@ -1,2 +1,3 @@
-# odin-cv-app
-My first react app
+# Odin - CV React App
+
+My first React app, nothing special.
