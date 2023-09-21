@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+#root {
+  font-size: 14px;
+  font-family: sans-serif, "Roboto";
+  color: black;
+}
+
+html,
+body,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+li ~ li{
+  margin-top: 1.3em;
+}
+section+*{
+  margin-top: 2em;
+}
+/* Utility */
+.page {
+  background-color: white;
+  padding: 10em 3em;
+}
+.page > * {
+  /* To stack all elements*/
+  display: block;
+  min-width: 40vw;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.info > *{
+  display: block;
+  font-size: 1rem;
+}
+.profile-picture {
+  max-width: 25%;
+  border-radius: 50%;
+}
+
+section h1{
+  font-size: 1.5em;
+}
+section h2{
+  font-size: 1.3em;
+}
+section:nth-of-type(4) li{ /* Skills */
+  margin: 0;
+}
